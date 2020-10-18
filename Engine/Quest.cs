@@ -7,7 +7,9 @@ using System.Threading.Tasks;
 
 namespace Engine
 {
-    class Quest
+    // Set the scope to public, allowing visibility throughout
+    // the entire solution
+    public class Quest
     {
         public int ID { get; set; }
         public string Name { get; set; }

@@ -13,6 +13,8 @@ namespace SuperAdventure
 {
     public partial class SuperAdventure : Form
     {
+        // This is where the Player object is instatiated
+
         private Player _player;
 
         public SuperAdventure()

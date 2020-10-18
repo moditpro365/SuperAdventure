@@ -6,9 +6,11 @@ using System.Threading.Tasks;
 
 namespace Engine
 {
+    // Set the scope to public, allowing visibility throughout
+    // the entire solution
     public class Player : LivingCreature
     {
-
+        // Setting varables within the class 
         public int Gold { get; set; }
         public int ExperiencePoints { get; set;  }
         public int Level { get; set;  }

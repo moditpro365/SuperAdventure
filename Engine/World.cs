@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace Engine
 {
+    // Set the scope to public, allowing visibility throughout
+    // the entire solution
     public static class World
     {
         public static readonly List<Item> Items = new List<Item>();
